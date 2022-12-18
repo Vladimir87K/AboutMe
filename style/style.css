@@ -7,12 +7,11 @@
 
 .header {
   padding-top: 55px;
-  position: fixed;
   width: 91vw;
-  z-index: 3;
   background-color: #DDDEE3;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__nav-connection {
@@ -99,6 +98,7 @@
 .about-content {
   position: relative;
   width: 50vw;
+  padding-bottom: 70px;
 }
 
 .about__paragraph {
@@ -224,13 +224,15 @@
   z-index: 1;
   width: 100%;
   top: 35px;
-  font-size: 12vw;;
+  font-size: 11vw;;
   line-height: 300px;
   margin: 0 auto;
   text-align: center;
   color: transparent;
   -webkit-text-stroke: 2px #3456F3;
   opacity: .3;
+  text-transform: uppercase;
+  text-shadow: 20px -19px 14px #3456f3;
 }
 
 .project__project {
@@ -246,6 +248,29 @@
 .project__image {
   margin-right: 30px;
   width: 68%;
+  max-height: 330px;
+  object-fit: cover;
+  object-position: top;
+  overflow: auto;
+}
+
+.project__image::-webkit-scrollbar {
+  width: 10px;
+  background-color: #ebe4e4;
+  border-radius: 5px;
+}
+
+.project__image::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #3b3a3a;
+}
+
+.project__image:hover::-webkit-scrollbar-thumb {
+  cursor: pointer;
+}
+
+.project__image-img {
+  width: -webkit-fill-available;
 }
 
 .project__content {
@@ -281,13 +306,13 @@
   line-height: 75px;
   margin: 150px auto 65px;
   position: relative;
-  width: 40vw;
+  width: 62vw;
   text-align: center;
   z-index: 1;
 }
 
 .greeting__subtitle {
-  font-size: 25vw;
+  font-size: 18vw;
   line-height: 450px;
   margin: 0;
   position: absolute;
@@ -298,6 +323,8 @@
   color: transparent;
   z-index: 0;
   opacity: .3;
+  text-transform: uppercase;
+  text-shadow: 20px -19px 14px #3456f3;
 }
 
 .greeting__button {

@@ -11,21 +11,21 @@
 <body class="body">
   <header class="header">
     <nav class="header__nav-connection">
-      <p class="header__nav-connection-paragraph">Find Me On</p>
+      <p class="header__nav-connection-paragraph">Найди меня через:</p>
       <ul class="header__nav-connection-tab">
         <li class="header__nav-connection-point">
           <a href="#" class="header__connection-link">
-            <img class="header__link-img" src="./image/icons8-whatsapp.svg" alt="иконка вацапа">
+            <img title="+78061380877" class="header__link-img" src="./image/icons8-whatsapp.svg" alt="иконка вацапа">
           </a>
         </li>
         <li class="header__nav-connection-point">
           <a href="#" class="header__connection-link">
-            <img class="header__link-img" src="./image/icons8-телеграмма-app.svg" alt="иконка телеграмм">
+            <img title="@Vladimir87K" class="header__link-img" src="./image/icons8-телеграмма-app.svg" alt="иконка телеграмм">
           </a>
         </li>
         <li class="header__nav-connection-point">
           <a href="#" class="header__connection-link">
-            <img class="header__link-img" src="./image/icons8-gmail.svg" alt="иконка gmail">
+            <img title="privet1vovil@gvail.com" class="header__link-img" src="./image/icons8-gmail.svg" alt="иконка gmail">
           </a>
         </li>
       </ul>
@@ -33,16 +33,16 @@
     <nav class="header__nav-information">
       <ul class="header__nav-information-tab">
         <li class="header__nav-information-point">
-          <a href="#" class="header__information-link">Home</a>
+          <a href="#" class="header__information-link">Домашняя</a>
         </li>
         <li class="header__nav-information-point">
-          <a href="#" class="header__information-link">About</a>
+          <a href="#" class="header__information-link">О себе</a>
         </li>
         <li class="header__nav-information-point">
-          <a href="#" class="header__information-link">Project</a>
+          <a href="#my-project" class="header__information-link">Проекты</a>
         </li>
         <li class="header__nav-information-point">
-          <a href="#" class="header__information-link">Contact me</a>
+          <a href="#" class="header__information-link">Контакты</a>
         </li>
       </ul>
     </nav>
@@ -51,19 +51,17 @@
   <main>
     <section class="about">
       <div class="about-content">
-        <p class="about__paragraph">Hello!</p>
-        <h1 class="about__title">I’m <span>Olawale Bamidele</span></h1>
-        <p class="about__subtitle">UX Designer</p>
-        <p class="about__information">I’m Olawale Bamidele, a google certified 
-          UX Designer who is really passionate about solving real-world 
-          problems through UX designs.
-          My goal is to produce a pleasant user-friendly experience and user 
-          interface designs through the humble process of completing UI/UX 
-          design projects and how they evolve from simple ideas into finished products.
+        <p class="about__paragraph">Привет!</p>
+        <h1 class="about__title">Я <span>Владимир Куклин</span></h1>
+        <p class="about__subtitle">Веб-разработчик</p>
+        <p class="about__information">Я Владимир Куклин, начинающий Веб-разработчик.
+          Да, у меня не очень большой опыт, но имеет место неиссякаемое любопытство и безграничное 
+          терпение в освоении нового. Примеры моих работ (как тренировочных, так и реальных) вы сможете
+          увидеть ниже. Надеюсь на плодотворное сотрудничество! До связи!
         </p>
         <div class="about__button-block">
-          <button class="about__cv button_blue" type="button"><img class="about__button-icon" src="/image/Subtract.svg" alt="">Dounload CV</button>
-          <button class="about__more button_blue" type="button">More</button>
+          <button class="about__cv button_blue" type="button"><img class="about__button-icon" src="/image/Subtract.svg" alt="">Загрузить CV</button>
+          <button class="about__more button_blue" type="button">Больше</button>
         </div>
       </div>
       <div class="about-image">
@@ -72,41 +70,58 @@
       </div>
     </section>
     <section class="project">
-      <h2 class="project__title">MY PROJECTS</h2>
-      <p class="project__subtitle">MY PROJECTS</p>
+      <h2 id="my-project" class="project__title">Мои проекты</h2>
+      <p class="project__subtitle">Мои проекты</p>
       <article class="project__project">
-        <img  class="project__image" src="/image/Mask group.svg" alt="">
+        <div class="project__image">
+          <img  class="project__image-img" src="/image/how-to-learn.png" alt="одностраничный сайт научиться учиться">
+        </div>
+        
         <div class="project__content">
-          <h3 class="project__name">FoodRuns Mobile Apps</h3>
-          <button class="project__button button_blue" type="button">View Details</button>
+          <h3 class="project__name">Научиться учиться</h3>
+          <button class="project__button button_blue" type="button">Посмотреть детали</button>
         </div>
       </article>
       <article class="project__project">
-        <img  class="project__image" src="/image/Mask group.svg" alt="">
+        <div class="project__image">
+          <img  class="project__image-img" src="/image/russian-travel.png" alt="адаптивный сайт Путешествие по России">
+        </div>
         <div class="project__content">
-          <h3 class="project__name">FoodRuns Mobile Apps</h3>
-          <button class="project__button button_blue" type="button">View Details</button>
+          <h3 class="project__name">Путешествия по России</h3>
+          <button class="project__button button_blue" type="button">Посмотреть детали</button>
         </div>
       </article>
       <article class="project__project">
-        <img  class="project__image" src="/image/Mask group.svg" alt="">
+        <div class="project__image">
+          <img  class="project__image-img" src="/image/react-mesto.png" alt="одностраничный сайт Место для обмена картинками">
+        </div>
         <div class="project__content">
-          <h3 class="project__name">FoodRuns Mobile Apps</h3>
-          <button class="project__button button_blue" type="button">View Details</button>
+          <h3 class="project__name">Место</h3>
+          <button class="project__button button_blue" type="button">Посмотреть детали</button>
         </div>
       </article>
-      <button class="project__button-more button_blue" type="button">More</button>
+      <article class="project__project">
+        <div class="project__image">
+          <img  class="project__image-img" src="/image/diplom.png" alt="димломный многостраничный сайт">
+        </div>
+        <div class="project__content">
+          <h3 class="project__name">Место</h3>
+          <button class="project__button button_blue" type="button">Посмотреть детали</button>
+        </div>
+      </article>
+      <!-- <button class="project__button-more button_blue" type="button">Ещё</button> -->
     </section>
     <section class="greeting">
-      <h2 class="greeting__title">Say Hi! and let’s create
-        something together.</h2>
-      <p class="greeting__subtitle">SAY  HI</p>
-      <button class="greeting__button" type="button">Contact Me</button>
+      <h2 class="greeting__title">Скажи привет! Мы можем создать 
+        что-нибудь интересное вместе!
+      </h2>
+      <p class="greeting__subtitle">Привет!</p>
+      <button class="greeting__button" type="button">Мои контакты</button>
     </section>
 
   </main>
   <footer class="footer">
-    <p class="footer__paragraph">&copy; Olawale Bamidele 2022</p>
+    <p class="footer__paragraph">&copy; Владимир Куклин 2022г</p>
   </footer>
 </body>
 </html>
