@@ -283,6 +283,7 @@
 .project__name {
   font-size: 32px;
   line-height: 48px;
+  text-align: center;
 }
 
 .project__button {
